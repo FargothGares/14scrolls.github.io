@@ -24,7 +24,7 @@
 <button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Click here to start!</button>
 <img src="values.svg" class="center">
 <h2>What is 14scrolls?</h2>
-<p>14scrolls (1.0.0) is a quiz based on <a href="https://altvalues.github.io/">AltValues</a>, that attempts to assign you percentages across multiple axes relating to the Elder Scrolls, with a label of what faction you may be most similar too.<br /><br />
+<p>14scrolls (1.0.0) is a political quiz, running on a modded base of <a href="https://8values.github.io/">8values</a>, that attempts to assign you percentages across multiple axes <del>with a label of what you might be</del>. You will be presented by a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br /><br />
     There are <b><u><span id="numOfQuestions"></span></u></b> questions in the test.</p>
 
 <h2>What are the values?</h2>

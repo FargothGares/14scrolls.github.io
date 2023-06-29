@@ -170,12 +170,12 @@ ideologies = [
 		"theory":"I'll be happy if you even read in general.",
         "stats": {
             "social": 70,
-            "econ": 75,
-            "essence": 15,
-            "moral": 95,	
-			"apply": 55,
-			"socpol": 35,
-			"ecol": 0,
+            "econ": 40,
+            "essence": 100,
+            "moral": 60,	
+			"apply": 60,
+			"socpol": 45,
+			"ecol": 20,
 			"relig": 50,
 			"aesth": 50
         }

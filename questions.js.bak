@@ -12,9 +12,7 @@ questions = [
         "id": 1,
         "question": "It is not acceptable that the royalty can do as they please with their subjects.",
         "effects": {
-            "social": 1,
-			"relig": 1,
-			"aesth": 1
+            "social": 1
         }
     },
     {

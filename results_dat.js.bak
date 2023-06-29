@@ -16,7 +16,7 @@ axisArrays = {
         "social": ["Feudalist","Stratified","Ordered","Egalitarian","Levelled"],
         "econ": ["Eugenicist","Phylogenist","Prejudiced","Inclusive","Cosmopolitan"],
         "essence": ["Imperialist","Expansionist","Realpolitik","Nationalist","Isolationist"],
-        "moral": ["Reactionary","Traditionalist","Conservative","Progressive","Revolutionary"],
+        "moral": ["Revolutionary","Progressive","Conservative","Traditionalist","Reactionary"],
 		"apply": ["Hivemind","Social Norms","Moderate","Libertarian","Anarchy"],
         "ecol": ["Materialist","Padomaic","Neutral","Anuic","Gnostic"],
 		"socpol": ["Gods of Reason and Logic","Free Study","Mixed","Prohibited Schools","Anti-Intellectualist"]
