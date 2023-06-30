@@ -10,7 +10,7 @@
     </script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
     <link href='style.css' rel='stylesheet' type='text/css'>
-    <title>AltValues Results</title>
+    <title>14scrolls Results</title>
     <link rel="icon" type="x-icon" href="icon.png">
     <link rel="shortcut icon" type="x-icon" href="icon.png">
     <meta charset="utf-8">
@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <h1>AltValues</h1>
+    <h1>14scrolls</h1>
     <hr>
 
     <h1>Results</h1>
@@ -48,7 +48,6 @@
     <img id="img-historic" src="value_images/historic.svg" height="128pt" style="display: none;"/>
 
 
-
     <p>Disclaimer: Proper data collection features were added with v1.0.0 and ideological assumptions can't be made before there's enough data.</p>
     <h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
     <h3>Description: <span class="weight-300" id="ideodesc-label"></span></h3>
@@ -56,7 +55,7 @@
 
 
 
-    <canvas id="banner" width=800 height=1250  style="font-family:Montserrat"></canvas>
+    <canvas id="banner" width=800 height=1000  style="font-family:Montserrat"></canvas>
     <button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
     <hr/>
     <p style="text-align: center">You can contact me via <a href="mailto:censusbot3@gmail.com">censusbot3@gmail.com</a>, <a href="https://discord.gg/vwqk2UZ">Discord</a> or <a href="https://twitter.com/sunkdatadiver">Twitter</a>.</p>
@@ -97,7 +96,7 @@
     pragmatic       = getQueryVariable("moral")
     universal       = getQueryVariable("apply")
     ecological      = getQueryVariable("ecol")
-    politicized     = getQueryVariable("socpol")
+	politicized     = getQueryVariable("socpol")
     religious       = getQueryVariable("relig")
     futurist        = getQueryVariable("aesth")
     collective      = (100 - individual     ).toFixed(1)
@@ -122,7 +121,7 @@
         dist += Math.pow(Math.abs(ideologies[i].stats.moral - pragmatic), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.apply - universal), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.ecol - ecological), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.socpol - politicized), 2)
+	    dist += Math.pow(Math.abs(ideologies[i].stats.socpol - politicized), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.relig - religious), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.aesth - futurist), 2)
         if (dist < ideodist) {
@@ -140,7 +139,7 @@
         var c = document.getElementById("banner")
         var ctx = c.getContext("2d")
         ctx.fillStyle = "#EEEEEE"
-        ctx.fillRect(0,0,800,1250)
+        ctx.fillRect(0,0,800,1100)
 
 
 
@@ -190,7 +189,7 @@
         ctx.fillStyle="#222222"
         ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
-        ctx.fillText("AltValues", 20, 90)
+        ctx.fillText("14scrolls", 20, 90)
         ctx.font="50px Montserrat"
         ctx.fillText(ideology, 20, 140)
 
@@ -209,7 +208,7 @@
         }
 
         ctx.font="300 30px Montserrat"
-        ctx.fillText("altvalues.github.io", 780, 60)
+        ctx.fillText("14scrolls.github.io", 780, 60)
         ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
 
