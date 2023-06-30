@@ -10,7 +10,7 @@
     </script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
     <link href='style.css' rel='stylesheet' type='text/css'>
-    <title>AltValues Results</title>
+    <title>14scrolls Results</title>
     <link rel="icon" type="x-icon" href="icon.png">
     <link rel="shortcut icon" type="x-icon" href="icon.png">
     <meta charset="utf-8">
@@ -21,31 +21,32 @@
 </head>
 
 <body>
-    <h1>AltValues</h1>
+    <h1>14scrolls</h1>
     <hr>
 
     <h1>Results</h1>
 
     <!-- HACK TO GET IMAGES PROPERLY WORK ON CANVAS -->
-    <img id="img-individual" src="value_images/individual.svg" height="200%" style="display: none;"/>
-    <img id="img-market" src="value_images/market.svg" height="128pt" style="display: none;"/>
-    <img id="img-essentialist" src="value_images/essentialist.svg" height="128pt" style="display: none;"/>
-    <img id="img-pragmatic" src="value_images/pragmatic.svg" height="128pt" style="display: none;"/>
-    <img id="img-universal" src="value_images/universal.svg" height="128pt" style="display: none;"/>
-    <img id="img-ecological" src="value_images/ecological.svg" height="128pt" style="display: none;"/>
-    <img id="img-politicized" src="value_images/politicized.svg" height="128pt" style="display: none;"/>
+    <img id="img-individual" src="value_images/equality.svg" height="200%" style="display: none;"/>
+    <img id="img-market" src="value_images/inclusivity.svg" height="128pt" style="display: none;"/>
+    <img id="img-essentialist" src="value_images/nation.svg" height="128pt" style="display: none;"/>
+    <img id="img-pragmatic" src="value_images/revolutionary.svg" height="128pt" style="display: none;"/>
+    <img id="img-universal" src="value_images/liberty.svg" height="128pt" style="display: none;"/>
+	<img id="img-politicized" src="value_images/politicized.svg" height="128pt" style="display: none;"/>
+    <img id="img-ecological" src="value_images/tradition.svg" height="128pt" style="display: none;"/>
     <img id="img-religious" src="value_images/religious.svg" height="128pt" style="display: none;"/>
     <img id="img-futurist" src="value_images/futurist.svg" height="128pt" style="display: none;"/>
 
-    <img id="img-collective" src="value_images/collective.svg" height="128pt" style="display: none;"/>
-    <img id="img-planned" src="value_images/planned.svg" height="128pt" style="display: none;"/>
-    <img id="img-constructivist" src="value_images/constructivist.svg" height="128pt" style="display: none;"/>
-    <img id="img-idealist" src="value_images/idealist.svg" height="128pt" style="display: none;"/>
-    <img id="img-particular" src="value_images/particular.svg" height="128pt" style="display: none;"/>
-    <img id="img-industrial" src="value_images/industrial.svg" height="128pt" style="display: none;"/>
+    <img id="img-collective" src="value_images/markets.svg" height="128pt" style="display: none;"/>
+    <img id="img-planned" src="value_images/supremacy.svg" height="128pt" style="display: none;"/>
+    <img id="img-constructivist" src="value_images/globe.svg" height="128pt" style="display: none;"/>
+    <img id="img-idealist" src="value_images/reactionary.svg" height="128pt" style="display: none;"/>
+    <img id="img-particular" src="value_images/authority.svg" height="128pt" style="display: none;"/>
     <img id="img-apolitical" src="value_images/apolitical.svg" height="128pt" style="display: none;"/>
+    <img id="img-industrial" src="value_images/progress.svg" height="128pt" style="display: none;"/>
     <img id="img-secular" src="value_images/secular.svg" height="128pt" style="display: none;"/>
     <img id="img-historic" src="value_images/historic.svg" height="128pt" style="display: none;"/>
+
 
 
     <p>Disclaimer: Proper data collection features were added with v1.0.0 and ideological assumptions can't be made before there's enough data.</p>
@@ -55,7 +56,7 @@
 
 
 
-    <canvas id="banner" width=800 height=1250  style="font-family:Montserrat"></canvas>
+    <canvas id="banner" width=800 height=1000  style="font-family:Montserrat"></canvas>
     <button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
     <hr/>
     <p style="text-align: center">You can contact me via <a href="mailto:censusbot3@gmail.com">censusbot3@gmail.com</a>, <a href="https://discord.gg/vwqk2UZ">Discord</a> or <a href="https://twitter.com/sunkdatadiver">Twitter</a>.</p>
@@ -189,7 +190,7 @@
         ctx.fillStyle="#222222"
         ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
-        ctx.fillText("AltValues", 20, 90)
+        ctx.fillText("14scrolls", 20, 90)
         ctx.font="50px Montserrat"
         ctx.fillText(ideology, 20, 140)
 
@@ -208,7 +209,7 @@
         }
 
         ctx.font="300 30px Montserrat"
-        ctx.fillText("altvalues.github.io", 780, 60)
+        ctx.fillText("14scrolls.github.io", 780, 60)
         ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
 
